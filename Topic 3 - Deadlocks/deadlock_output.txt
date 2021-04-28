@@ -1,0 +1,31 @@
+Creating Producer Thread...
+
+Producer Thread created
+
+Creating Consumer Thread...
+
+Producer locked mutex 1
+Producer locked mutex 2
+Produced: 1
+Product available after production: 1
+Producer unlocked mutex 2
+Producer unlocked mutex 1
+
+Producer locked mutex 1
+Producer locked mutex 2
+Produced: 2
+Product available after production: 2
+Producer unlocked mutex 2
+Producer unlocked mutex 1
+
+Producer locked mutex 1
+Producer locked mutex 2
+Produced: 3
+Product available after production: 3
+Producer unlocked mutex 2
+Producer unlocked mutex 1
+
+Producer locked mutex 1
+Consumer locked mutex 2
+Consumer Thread created
+

@@ -1,0 +1,126 @@
+Creating Producer Thread...
+
+Producer Thread created
+
+Creating Consumer Thread...
+
+Consumer Thread created
+
+Producer locked mutex 1
+Could not lock 2nd resource. Producer unlocked mutex 1
+
+Consumer locked mutex 2
+Consumer locked mutex 1
+No product available to consume! Consumer unlocked mutex 2
+No product available to consume! Consumer unlocked mutex 1
+
+Producer locked mutex 1
+Could not lock 2nd resource. Producer unlocked mutex 1
+
+Consumer locked mutex 2
+Consumer locked mutex 1
+No product available to consume! Consumer unlocked mutex 2
+No product available to consume! Consumer unlocked mutex 1
+
+Consumer locked mutex 2
+Could not lock 2nd resource. Consumer unlocked mutex 2
+
+Producer locked mutex 1
+Producer locked mutex 2
+Produced: 1
+Product available after production: 1
+Producer unlocked mutex 2
+Producer unlocked mutex 1
+
+Producer locked mutex 1
+Could not lock 2nd resource. Producer unlocked mutex 1
+
+Consumer locked mutex 2
+Consumer locked mutex 1
+Consumed: 1
+Product available after consumption: 0
+Consumer unlocked mutex 2
+Consumer unlocked mutex 1
+
+Producer locked mutex 1
+Could not lock 2nd resource. Producer unlocked mutex 1
+
+Consumer locked mutex 2
+Consumer locked mutex 1
+No product available to consume! Consumer unlocked mutex 2
+No product available to consume! Consumer unlocked mutex 1
+
+Consumer locked mutex 2
+Could not lock 2nd resource. Consumer unlocked mutex 2
+
+Producer locked mutex 1
+Producer locked mutex 2
+Produced: 2
+Product available after production: 1
+Producer unlocked mutex 2
+Producer unlocked mutex 1
+
+Producer locked mutex 1
+Could not lock 2nd resource. Producer unlocked mutex 1
+
+Consumer locked mutex 2
+Consumer locked mutex 1
+Consumed: 2
+Product available after consumption: 0
+Consumer unlocked mutex 2
+Consumer unlocked mutex 1
+
+Consumer locked mutex 2
+Could not lock 2nd resource. Consumer unlocked mutex 2
+
+Producer locked mutex 1
+Producer locked mutex 2
+Produced: 3
+Product available after production: 1
+Producer unlocked mutex 2
+Producer unlocked mutex 1
+
+Consumer locked mutex 2
+Could not lock 2nd resource. Consumer unlocked mutex 2
+
+Producer locked mutex 1
+Producer locked mutex 2
+Produced: 4
+Product available after production: 2
+Producer unlocked mutex 2
+Producer unlocked mutex 1
+
+Consumer locked mutex 2
+Could not lock 2nd resource. Consumer unlocked mutex 2
+
+Producer locked mutex 1
+Producer locked mutex 2
+Produced: 5
+Product available after production: 3
+Producer unlocked mutex 2
+Producer unlocked mutex 1
+
+Consumer locked mutex 2
+Consumer locked mutex 1
+Consumed: 3
+Product available after consumption: 2
+Consumer unlocked mutex 2
+Consumer unlocked mutex 1
+
+Consumer locked mutex 2
+Consumer locked mutex 1
+Consumed: 4
+Product available after consumption: 1
+Consumer unlocked mutex 2
+Consumer unlocked mutex 1
+
+Consumer locked mutex 2
+Consumer locked mutex 1
+Consumed: 5
+Product available after consumption: 0
+Consumer unlocked mutex 2
+Consumer unlocked mutex 1
+
+Work complete. Product remaining (should be 0): 0
+Cleaning up...
+

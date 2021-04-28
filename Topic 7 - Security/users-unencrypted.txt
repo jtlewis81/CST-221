@@ -1,0 +1,5 @@
+user1 GCU2019
+user2 GcanyonU
+user3 Phoenix,AZ
+user4 John3:16
+user5 p@ssw0rd
